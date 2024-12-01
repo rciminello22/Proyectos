@@ -9,41 +9,33 @@ export const info = {
   cv: "/resume.pdf",
 
   about: {
-    description: `I'm a full stack developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in computer science, although I prefer skateboarding over studying.
-    I excel in building web applications using React, Node.js, and MongoDB.
-    I'm known for my sharp wit and quick thinking, traits that serve me well in coding and pranks alike.
-    Looking for a challenge? Let's create something memorable together.`,
+    description: `Soy un desarrollador de pila completa con una pasión por causar un poco de caos en el desarrollo web. Tengo una base sólida en informática, aunque prefiero el skate sobre el estudio. Me destaco en la construcción de aplicaciones web utilizando React, Node.js y MongoDB. Soy conocido por mi ingenio agudo y pensamiento rápido, rasgos que me sirven bien en codificación y bromas por igual. ¿Buscas un desafío? Creemos algo memorable juntos.
+
+
+`,
     education: [
       {
-        title: "Self-Taught Developer Extraordinaire",
-        date: "2000 - Present",
-        location: "Springfield Elementary School of Hard Knocks",
-        gpa: "4.0 (A+ in Pranks)",
-        thesis: "The Art of Subverting Expectations: A Practical Guide",
+        title: "Licenciatura en Diseño Multimedial",
+        date: "2021 - 2025",
+        location: "Universidad Nacional de La Plata",
+        gpa: "Actualmente en el 5° y último año de la carrera",
+        thesis: "Próximamente...",
+      },
+      {
+        title: "Desarrollador autodidacta",
+        date: "",
+        location: "",
+        gpa: "",
+        thesis: "",
       },
     ],
     experience: [
       {
-        title: "Frontend Developer",
-        date: "2015 - Present",
-        location: "Krusty Burger Web Dev",
+        title: "",
+        date: "",
+        location: "",
         description:
-          "Crafted interactive web experiences using React and Redux. Often multitasked between coding and avoiding Principal Skinner.",
-      },
-      {
-        title: "Backend Bandit",
-        date: "2013 - 2015",
-        location: "Comic Book Guy's Software Emporium",
-        description:
-          "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging, considering my history of causing bugs.",
-      },
-      {
-        title: "Junior Hacker",
-        date: "2010 - 2013",
-        location: "Springfield Elementary Cyber Club",
-        description:
-          "Pioneered early web exploits, leading the club in daring coding escapades. Was disciplined for hacking the school's grading system.",
+          "",
       },
     ],
 

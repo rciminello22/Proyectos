@@ -8,10 +8,9 @@ export default function Nav({ posts }) {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const navLinks = [
-    { name: "About", href: "/#about" },
-    { name: "Projects", href: "/#projects" },
-    { name: "Blog", href: "/#blog" },
-    { name: "Contact", href: "/#contact" },
+    { name: "Sobre mí", href: "/#about" },
+    { name: "Proyectos", href: "/#projects" },
+    { name: "Contacto", href: "/#contact" },
   ];
 
   const extractInitials = (name) => {
@@ -41,7 +40,7 @@ export default function Nav({ posts }) {
           >
             <i className="fas fa-download mr-2"></i>
             <span className="hidden lg:inline-block font-medium">
-              Download CV
+              Descargar CV
             </span>
             <span className="lg:hidden font-medium">CV</span>
           </a>

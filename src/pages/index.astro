@@ -22,7 +22,7 @@ const allPosts = await Astro.glob("./posts/*.md");
           alt={info.picture_alt}
           width={200}
           height={200}
-          class="lg:h-96 lg:w-96 h-40 w-40 rounded-full object-contain object-right space-x-8"
+          class="lg:h-96 lg:w-96 h-40 w-40 rounded-full object-contain object-center space-x-8"
         />
       </div>
 
@@ -32,7 +32,7 @@ const allPosts = await Astro.glob("./posts/*.md");
             {info.name}</span
           >
         </h1>
-        <h2 class="text-text dark:text-dk-text">{info.brief_description}</h2>
+        <h2 class="text-text dark:text-dk-text ">{info.brief_description}</h2>
         <p class="text-2xl">
           Basado en <span class="text-secondary dark:text-dk-secondary"
             >{info.location}</span
@@ -55,13 +55,6 @@ const allPosts = await Astro.glob("./posts/*.md");
   </section>
 
   <section
-    class="lg:h-screen lg:m-0 my-20 flex-col flex justify-center w-full"
-    id="blog"
-  >
-    <Blog posts={allPosts} />
-  </section>
-
-  <section
     class="lg:h-screen lg:m-0 my-20 mx-2 flex-col flex justify-center w-full"
     id="contact"
   >
@@ -73,7 +66,7 @@ const allPosts = await Astro.glob("./posts/*.md");
 
 <style>
   .typewriter {
-    background: linear-gradient(to left, #3333ff, #efff15, #ff0000);
+    background: linear-gradient(to left, #ff3333, #1200b4, #ad2e39);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

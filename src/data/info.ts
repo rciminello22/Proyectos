@@ -1,11 +1,11 @@
 export const info = {
-  name: "Bart Simpson",
+  name: "Renzo Ciminello",
   brief_description:
-    "I'm a mischievous full stack developer with a knack for troublemaking.",
+    "Desarrollador front-end, enfocado en crear interfaces atractivas y experiencias de usuario intuitivas.",
   role: "Full Stack Developer",
   picture: "/pic.png",
-  picture_alt: "Bart Simpson",
-  location: "Springfield, USA",
+  picture_alt: "Renzo Ciminello",
+  location: "La Plata, Argentina",
   cv: "/resume.pdf",
 
   about: {
